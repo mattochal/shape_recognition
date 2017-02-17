@@ -5,7 +5,7 @@ import os, glob
 
 #.  from math import abs
 
-path = "./PiCam/Images/set1/"
+path = "./PiCam/Images/set2/"
 images_filenames = glob.glob(path + "*.jpg")
 
 print len(images_filenames)
